@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using System;
 
 namespace project01
@@ -47,4 +47,3 @@ namespace project01
         }
     }
 }
-*/

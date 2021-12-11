@@ -9,34 +9,34 @@
  * The conditional operator cannot be overloaded.
  */
 
-//using System;
+using System;
 
-//namespace project01
-//{
-//    class EnhancedIfTernary
-//    {
-//        static void Main(string[] args)
-//        {
-//            int temperature = -5;
-//            string stateOfMatter;
+namespace project01
+{
+   class EnhancedIfTernary
+   {
+       static void Main(string[] args)
+       {
+           int temperature = -5;
+           string stateOfMatter;
 
-//            if (temperature < 0)
-//                stateOfMatter = "solid";
-//            else
-//                stateOfMatter = "liquid";
-//            Console.WriteLine("State of matter is {0}", stateOfMatter);
+           if (temperature < 0)
+               stateOfMatter = "solid";
+           else
+               stateOfMatter = "liquid";
+           Console.WriteLine("State of matter is {0}", stateOfMatter);
 
-//            // If statement in short
-//            temperature += 30;
-//            stateOfMatter = temperature < 0 ? "solid" : "liquid";
-//            Console.WriteLine("State of matter is {0}", stateOfMatter);
+           // If statement in short
+           temperature += 30;
+           stateOfMatter = temperature < 0 ? "solid" : "liquid";
+           Console.WriteLine("State of matter is {0}", stateOfMatter);
 
-//            // challenge - add the gas state of matter to the options
-//            temperature = 120;
-//            stateOfMatter = temperature > 100 ? "gas" : temperature < 0 ? "solid" : "liquid";
-//            Console.WriteLine("State of matter is {0}", stateOfMatter);
+           // challenge - add the gas state of matter to the options
+           temperature = 120;
+           stateOfMatter = temperature > 100 ? "gas" : temperature < 0 ? "solid" : "liquid";
+           Console.WriteLine("State of matter is {0}", stateOfMatter);
             
-//            Console.ReadKey(); 
-//        }
-//    }
-//}
+           Console.ReadKey(); 
+       }
+   }
+}
